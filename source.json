@@ -1,18 +1,17 @@
 {
-  "article": "https://clashverge.me/free-node/2026-4-29-v2ray-node-daily-updates.htm",
+  "article": "https://clashverge.me/free-node/2026-4-30-v2ray-node.htm",
   "v2ray": [
-    "https://node.clashverge.me/uploads/2026/04/2-20260429.txt",
-    "https://node.clashverge.me/uploads/2026/04/3-20260429.txt",
-    "https://node.clashverge.me/uploads/2026/04/4-20260429.txt"
+    "https://node.clashverge.me/uploads/2026/04/0-20260430.txt",
+    "https://node.clashverge.me/uploads/2026/04/1-20260430.txt",
+    "https://node.clashverge.me/uploads/2026/04/2-20260430.txt",
+    "https://node.clashverge.me/uploads/2026/04/3-20260430.txt",
+    "https://node.clashverge.me/uploads/2026/04/4-20260430.txt"
   ],
   "clash": [
-    "https://node.clashverge.me/uploads/2026/04/0-20260429.yaml",
-    "https://node.clashverge.me/uploads/2026/04/1-20260429.yaml",
-    "https://node.clashverge.me/uploads/2026/04/2-20260429.yaml",
-    "https://node.clashverge.me/uploads/2026/04/3-20260429.yaml",
-    "https://node.clashverge.me/uploads/2026/04/4-20260429.yaml"
+    "https://node.clashverge.me/uploads/2026/04/2-20260430.yaml",
+    "https://node.clashverge.me/uploads/2026/04/3-20260430.yaml"
   ],
   "singbox": [
-    "https://node.clashverge.me/uploads/2026/04/20260429.json"
+    "https://node.clashverge.me/uploads/2026/04/20260430.json"
   ]
 }
