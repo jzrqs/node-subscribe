@@ -1,16 +1,20 @@
 {
-  "article": "https://clashverge.me/free-node/2026-5-14-v2ray-node.htm",
+  "article": "https://clashverge.me/free-node/2026-5-15-free-shadowrocket-node.htm",
   "v2ray": [
-    "https://node.clashverge.me/uploads/2026/05/1-20260514.txt",
-    "https://node.clashverge.me/uploads/2026/05/2-20260514.txt",
-    "https://node.clashverge.me/uploads/2026/05/3-20260514.txt"
+    "https://node.clashverge.me/uploads/2026/05/0-20260515.txt",
+    "https://node.clashverge.me/uploads/2026/05/1-20260515.txt",
+    "https://node.clashverge.me/uploads/2026/05/2-20260515.txt",
+    "https://node.clashverge.me/uploads/2026/05/3-20260515.txt",
+    "https://node.clashverge.me/uploads/2026/05/4-20260515.txt"
   ],
   "clash": [
-    "https://node.clashverge.me/uploads/2026/05/0-20260514.yaml",
-    "https://node.clashverge.me/uploads/2026/05/1-20260514.yaml",
-    "https://node.clashverge.me/uploads/2026/05/2-20260514.yaml"
+    "https://node.clashverge.me/uploads/2026/05/0-20260515.yaml",
+    "https://node.clashverge.me/uploads/2026/05/1-20260515.yaml",
+    "https://node.clashverge.me/uploads/2026/05/2-20260515.yaml",
+    "https://node.clashverge.me/uploads/2026/05/3-20260515.yaml",
+    "https://node.clashverge.me/uploads/2026/05/4-20260515.yaml"
   ],
   "singbox": [
-    "https://node.clashverge.me/uploads/2026/05/20260514.json"
+    "https://node.clashverge.me/uploads/2026/05/20260515.json"
   ]
 }
