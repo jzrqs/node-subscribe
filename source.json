@@ -1,17 +1,14 @@
 {
-  "article": "https://clashverge.me/free-node/2026-7-29-free-subscribe-node.htm",
+  "article": "https://clashverge.me/free-node/2026-7-30-free-vpn-proxy.htm",
   "v2ray": [
-    "https://node.clashverge.me/uploads/2026/07/0-20260729.txt",
-    "https://node.clashverge.me/uploads/2026/07/1-20260729.txt",
-    "https://node.clashverge.me/uploads/2026/07/2-20260729.txt",
-    "https://node.clashverge.me/uploads/2026/07/3-20260729.txt",
-    "https://node.clashverge.me/uploads/2026/07/4-20260729.txt"
+    "https://node.clashverge.me/uploads/2026/07/0-20260730.txt",
+    "https://node.clashverge.me/uploads/2026/07/2-20260730.txt"
   ],
   "clash": [
-    "https://node.clashverge.me/uploads/2026/07/0-20260729.yaml",
-    "https://node.clashverge.me/uploads/2026/07/2-20260729.yaml"
+    "https://node.clashverge.me/uploads/2026/07/0-20260730.yaml",
+    "https://node.clashverge.me/uploads/2026/07/3-20260730.yaml"
   ],
   "singbox": [
-    "https://node.clashverge.me/uploads/2026/07/20260729.json"
+    "https://node.clashverge.me/uploads/2026/07/20260730.json"
   ]
 }
