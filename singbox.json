@@ -124,14 +124,19 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱_PL_波兰",
-        "🇸🇪_SE_瑞典",
-        "🇯🇵_JP_日本",
-        "🇨🇳_CN_中国",
+        "🇺🇸_US_美国->🇩🇪_DE_德国",
         "🇮🇹_IT_意大利",
         "🇮🇹_IT_意大利_1",
-        "🇺🇸_US_美国",
-        "🇮🇹_IT_意大利_2"
+        "🇨🇳_CN_中国",
+        "🇮🇹_IT_意大利_2",
+        "🇯🇵_JP_日本",
+        "🇨🇳_CN_中国->🇺🇸_US_美国",
+        "🇮🇹_IT_意大利_3",
+        "🇮🇹_IT_意大利_4",
+        "🇮🇹_IT_意大利_5",
+        "🇮🇹_IT_意大利_6",
+        "🇮🇹_IT_意大利_7",
+        "🇺🇸_US_美国"
       ]
     },
     {
@@ -365,6 +370,8 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
+        "🇺🇸_US_美国->🇩🇪_DE_德国",
+        "🇨🇳_CN_中国->🇺🇸_US_美国",
         "🇺🇸_US_美国"
       ]
     },
@@ -372,26 +379,34 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "🇵🇱_PL_波兰",
-        "🇸🇪_SE_瑞典",
-        "🇨🇳_CN_中国",
         "🇮🇹_IT_意大利",
         "🇮🇹_IT_意大利_1",
-        "🇮🇹_IT_意大利_2"
+        "🇨🇳_CN_中国",
+        "🇮🇹_IT_意大利_2",
+        "🇮🇹_IT_意大利_3",
+        "🇮🇹_IT_意大利_4",
+        "🇮🇹_IT_意大利_5",
+        "🇮🇹_IT_意大利_6",
+        "🇮🇹_IT_意大利_7"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇵🇱_PL_波兰",
-        "🇸🇪_SE_瑞典",
-        "🇯🇵_JP_日本",
-        "🇨🇳_CN_中国",
+        "🇺🇸_US_美国->🇩🇪_DE_德国",
         "🇮🇹_IT_意大利",
         "🇮🇹_IT_意大利_1",
-        "🇺🇸_US_美国",
-        "🇮🇹_IT_意大利_2"
+        "🇨🇳_CN_中国",
+        "🇮🇹_IT_意大利_2",
+        "🇯🇵_JP_日本",
+        "🇨🇳_CN_中国->🇺🇸_US_美国",
+        "🇮🇹_IT_意大利_3",
+        "🇮🇹_IT_意大利_4",
+        "🇮🇹_IT_意大利_5",
+        "🇮🇹_IT_意大利_6",
+        "🇮🇹_IT_意大利_7",
+        "🇺🇸_US_美国"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -402,31 +417,66 @@
       "tag": "direct"
     },
     {
-      "tag": "🇵🇱_PL_波兰",
-      "type": "trojan",
-      "server": "78.17.171.137",
+      "tag": "🇺🇸_US_美国->🇩🇪_DE_德国",
+      "type": "vless",
+      "server": "uiuxtestsdcv-development-r6dg9.lucity.app",
       "server_port": 443,
-      "password": "u93yPGuY2zgIsisJZKS2QzJzg",
-      "network": "tcp",
+      "uuid": "58b06206-cd53-23d6-279a-0f0dd259cb0a",
+      "transport": {
+        "type": "ws",
+        "path": "/ws/58b06206-cd53-23d6-279a-0f0dd259cb0a",
+        "headers": {
+          "Host": "uiuxtestsdcv-development-r6dg9.lucity.app"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      },
       "tls": {
         "enabled": true,
-        "server_name": "2.HI-L.IM",
+        "server_name": "uiuxtestsdcv-development-r6dg9.lucity.app",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
         "insecure": true
       }
     },
     {
-      "tag": "🇸🇪_SE_瑞典",
-      "type": "vless",
-      "server": "13.60.198.133",
-      "server_port": 443,
-      "uuid": "7060231d-b9ba-495f-a218-bf427940cf3e",
-      "transport": {
-        "type": "http"
-      },
+      "tag": "🇮🇹_IT_意大利",
+      "type": "shadowsocks",
+      "server": "202.50.253.81",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇮🇹_IT_意大利_1",
+      "type": "shadowsocks",
+      "server": "202.50.253.72",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇨🇳_CN_中国",
+      "type": "vmess",
+      "server": "112.132.215.108",
+      "server_port": 50002,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "alter_id": 64,
+      "security": "auto",
       "tls": {
         "enabled": false,
         "insecure": true
       }
+    },
+    {
+      "tag": "🇮🇹_IT_意大利_2",
+      "type": "shadowsocks",
+      "server": "202.50.253.54",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "tag": "🇯🇵_JP_日本",
@@ -437,20 +487,34 @@
       "password": "BeaUf9c0AEWH40Pu"
     },
     {
-      "tag": "🇨🇳_CN_中国",
-      "type": "vmess",
-      "server": "112.132.215.108",
-      "server_port": 50002,
-      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-      "alter_id": 0,
-      "security": "auto",
+      "tag": "🇨🇳_CN_中国->🇺🇸_US_美国",
+      "type": "vless",
+      "server": "us22.sofast.live",
+      "server_port": 58011,
+      "uuid": "0afc6426-606c-48e7-bd70-3c424a416842",
       "tls": {
         "enabled": false,
         "insecure": true
       }
     },
     {
-      "tag": "🇮🇹_IT_意大利",
+      "tag": "🇮🇹_IT_意大利_3",
+      "type": "shadowsocks",
+      "server": "202.50.253.45",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇮🇹_IT_意大利_4",
+      "type": "shadowsocks",
+      "server": "202.50.253.90",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇮🇹_IT_意大利_5",
       "type": "shadowsocks",
       "server": "202.50.253.18",
       "server_port": 19999,
@@ -458,7 +522,15 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "🇮🇹_IT_意大利_1",
+      "tag": "🇮🇹_IT_意大利_6",
+      "type": "shadowsocks",
+      "server": "202.50.253.63",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇮🇹_IT_意大利_7",
       "type": "shadowsocks",
       "server": "202.50.253.99",
       "server_port": 19999,
@@ -485,14 +557,6 @@
         "server_name": "guanwang.awsno.com",
         "insecure": true
       }
-    },
-    {
-      "tag": "🇮🇹_IT_意大利_2",
-      "type": "shadowsocks",
-      "server": "202.50.253.45",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     }
   ],
   "http_clients": [
