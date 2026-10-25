@@ -1,19 +1,14 @@
 {
-  "article": "https://clashverge.me/free-node/clash-node-daily-updates-2026-10-24.htm",
+  "article": "https://clashverge.me/free-node/2026-10-25-clash-windows.htm",
   "v2ray": [
-    "https://node.clashverge.me/uploads/2026/10/0-20261024.txt",
-    "https://node.clashverge.me/uploads/2026/10/2-20261024.txt",
-    "https://node.clashverge.me/uploads/2026/10/3-20261024.txt",
-    "https://node.clashverge.me/uploads/2026/10/4-20261024.txt"
+    "https://node.clashverge.me/uploads/2026/10/1-20261025.txt",
+    "https://node.clashverge.me/uploads/2026/10/2-20261025.txt"
   ],
   "clash": [
-    "https://node.clashverge.me/uploads/2026/10/0-20261024.yaml",
-    "https://node.clashverge.me/uploads/2026/10/1-20261024.yaml",
-    "https://node.clashverge.me/uploads/2026/10/2-20261024.yaml",
-    "https://node.clashverge.me/uploads/2026/10/3-20261024.yaml",
-    "https://node.clashverge.me/uploads/2026/10/4-20261024.yaml"
+    "https://node.clashverge.me/uploads/2026/10/2-20261025.yaml",
+    "https://node.clashverge.me/uploads/2026/10/3-20261025.yaml"
   ],
   "singbox": [
-    "https://node.clashverge.me/uploads/2026/10/20261024.json"
+    "https://node.clashverge.me/uploads/2026/10/20261025.json"
   ]
 }
