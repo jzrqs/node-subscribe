@@ -1,14 +1,17 @@
 {
-  "article": "https://clashverge.me/free-node/2026-10-25-clash-windows.htm",
+  "article": "https://clashverge.me/free-node/free-shadowrocket-node-2026-10-26.htm",
   "v2ray": [
-    "https://node.clashverge.me/uploads/2026/10/1-20261025.txt",
-    "https://node.clashverge.me/uploads/2026/10/2-20261025.txt"
+    "https://node.clashverge.me/uploads/2026/10/0-20261026.txt",
+    "https://node.clashverge.me/uploads/2026/10/1-20261026.txt",
+    "https://node.clashverge.me/uploads/2026/10/3-20261026.txt",
+    "https://node.clashverge.me/uploads/2026/10/4-20261026.txt"
   ],
   "clash": [
-    "https://node.clashverge.me/uploads/2026/10/2-20261025.yaml",
-    "https://node.clashverge.me/uploads/2026/10/3-20261025.yaml"
+    "https://node.clashverge.me/uploads/2026/10/0-20261026.yaml",
+    "https://node.clashverge.me/uploads/2026/10/2-20261026.yaml",
+    "https://node.clashverge.me/uploads/2026/10/4-20261026.yaml"
   ],
   "singbox": [
-    "https://node.clashverge.me/uploads/2026/10/20261025.json"
+    "https://node.clashverge.me/uploads/2026/10/20261026.json"
   ]
 }
